@@ -1,0 +1,282 @@
+header {
+  background-image: url(https://cdn.shopify.com/s/files/1/0902/2442/files/banner-corselette-tote-desktop.jpg?v=1656291571);
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+nav {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: +2;
+}
+
+nav .logo img {
+  width: 300px;
+}
+
+nav .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 25px;
+  width: 100%;
+}
+
+nav .list li {
+  list-style: none;
+}
+
+nav .list li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: monospace;
+  width: 100%;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+nav .list li a:hover {
+  background-color: #ef983c;
+  color: white;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+nav .list2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 25px;
+  width: 100%;
+}
+
+nav .list2 li {
+  list-style: none;
+}
+
+nav .list2 li a {
+  text-decoration: none;
+  color: #e78e75;
+}
+
+.textp {
+  position: absolute;
+  top: 300px;
+}
+
+.textp h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+}
+
+.textp .btn {
+  background-color: gray;
+  padding: 16px 26px;
+  margin-top: 20px;
+  color: white;
+  font-weight: 500;
+}
+
+.textp .btn:hover {
+  background-color: #ef983c;
+  color: black;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.swiper1 .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper1 .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper1 .swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.Picture {
+  border-top: 2px solid black;
+  width: 80%;
+  margin: 0 10%;
+}
+
+.Picture .miniflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Picture .miniflex .style {
+  font-size: 30px;
+  color: black;
+}
+
+.Picture .miniflex .seeall {
+  font-size: 15px;
+}
+
+.Picture .miniflex .seeall > a {
+  color: black;
+}
+
+.Picture .textend p, .Picture .textend a {
+  padding-top: 26px;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.swiper2 .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper2 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border: 1px solid;
+}
+
+.swiper2 .swiper-slide .imgg {
+  width: 100%;
+  height: 400px;
+}
+
+.swiper2 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer {
+  background-color: black;
+  height: 500px;
+  margin-top: 30px;
+}
+
+footer ul {
+  margin-top: 20px;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+}
+
+footer ul .liii {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+footer ul .liii a {
+  color: #ef983c;
+}
+
+footer .submitt {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  padding-left: 300px;
+  color: #ef983c;
+}
+
+footer .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+footer .contact li {
+  color: white;
+  cursor: pointer;
+}
+
+footer .contakt {
+  margin-top: 70px;
+  padding-left: 150px;
+}
+
+footer .contakt .emaill {
+  margin-top: 10px;
+  gap: 10px;
+  width: 60%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0%;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=style.css.map */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */
+}
+
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+  background-image: url(https://i.pinimg.com/originals/df/5f/09/df5f092b021a95274017839018edc192.gif);
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+  /* is width and height divided by two */
+}

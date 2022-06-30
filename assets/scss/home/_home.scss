@@ -1,0 +1,208 @@
+
+header{
+   background-image: url(https://cdn.shopify.com/s/files/1/0902/2442/files/banner-corselette-tote-desktop.jpg?v=1656291571);
+   height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+}
+
+nav{
+    background-color: white;
+    position:fixed;
+    width: 100%;
+    z-index: +2;
+    .logo{
+        img{
+            width:300px;
+    
+        }
+    }
+    .list{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 25px;
+        width: 100%;
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: 20px;
+                font-family: monospace;
+                width: 100%;
+                transition: .2s;
+                &:hover{
+                    background-color: $textcolor;
+                    color: white;
+                    border-radius: 4px;
+                    padding: 8px;
+                }
+
+            }
+        }
+    }
+    .list2{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 25px;
+        width: 100%;
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                color:rgb(225, 145, 123);
+            }
+        }
+    }
+}
+.textp{
+    position: absolute;
+    top: 300px;
+    h2{
+        font-size: 40px;
+        font-weight: $fontweight;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin-bottom: 30px;
+    }
+    .btn{
+        background-color: gray;
+        padding: 16px 26px;
+        margin-top: 20px;
+        color: white;
+        font-weight: 500;
+        &:hover{
+            background-color: $textcolor;
+            color: black;
+            transform: scale(1.1);
+        }
+    }
+}
+
+.swiper1{
+    .swiper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+}
+
+.Picture{
+    border-top: 2px solid black;
+    width: 80%;
+    margin: 0 10%; 
+    .miniflex{
+        display: $d-play;
+        @include miniflex(10px, space-between, center);
+        .style{
+            font-size: 30px;
+            color: $textcolor2 ;
+        }
+        .seeall{
+            font-size: 15px;
+            >a{
+                color: $textcolor2;
+            }
+        }
+    }
+    .textend{
+        p,a{
+            padding-top: 26px;
+            color: $textcolor2;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    }
+}
+.swiper2{
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        border: 1px solid;
+        .imgg{
+            width: 100%;
+            height: 400px;
+        }
+      }
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+}
+
+footer{
+    background-color: black;
+    height: 500px;
+    margin-top: 30px;
+
+    ul{
+        margin-top: 20px;
+        li{
+          list-style: none;  
+         a{
+            text-decoration: none;
+            color: white;
+            line-height: 30px;
+         }
+        }
+        .liii{
+            text-transform: uppercase;
+            font-size: 25px;
+            font-weight:$fontweight;
+            padding-bottom: 20px;
+            a{
+                color: $textcolor;
+            }
+        }
+    }
+
+    .submitt{
+       margin-top: 20px;
+       text-transform: uppercase;
+       font-size: 25px;
+       font-weight: $fontweight;
+       padding-left: 300px;
+       color: rgb(239, 152, 60);
+    }
+    .contact{
+        display: flex;
+        justify-content: space-evenly;
+        li{
+            color: white;
+            cursor: pointer;
+        }
+    }
+    .contakt{
+        margin-top: 70px;
+        padding-left: 150px;
+        .emaill{
+            margin-top: 10px;
+            gap: 10px;
+            width: 60%;
+            padding: 10px ;
+            border-radius: 5px;
+        }
+    }
+}
